@@ -1242,7 +1242,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1870ms :: artifacts dl 53ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2260ms :: artifacts dl 52ms[0m
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT compile produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT runtime produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT test produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-test.xml[0m
@@ -1255,5 +1255,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT sources produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT docs produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-2372cc;0.1-SNAPSHOT pom produced in /Users/simujenni/Scala/Assignments/example/project/project/target/resolution-cache/reports/default-default-2372cc-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1870ms resolve - 53ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2260ms resolve - 52ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

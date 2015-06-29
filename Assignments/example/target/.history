@@ -1,6 +1,11 @@
+compile
+test
 eclipse
+scala
 console
-exit
-eclipse
+compile
 console
-exit
+compile
+scala
+console
+test

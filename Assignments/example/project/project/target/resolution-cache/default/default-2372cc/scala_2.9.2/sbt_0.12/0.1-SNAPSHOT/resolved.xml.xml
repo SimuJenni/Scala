@@ -4,7 +4,7 @@
 		module="default-2372cc"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150619193509"
+		publication="20150629165857"
 		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>
