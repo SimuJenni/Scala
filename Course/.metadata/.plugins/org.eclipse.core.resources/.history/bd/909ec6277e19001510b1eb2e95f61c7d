@@ -1,0 +1,12 @@
+package week2
+
+object exercise {
+	def factorial (n: Int) = {
+		def loop (acc: Int, x: Int): Int = {
+			if (x==1) acc
+			else loop(x-1, acc*x)
+		}
+		loop(1,n)
+	}                                         //> factorial: (n: Int)Int
+	factorial(5)
+}

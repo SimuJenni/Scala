@@ -1,0 +1,162 @@
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-06-19 18:56:04.612
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2015-06-19 18:56:04.612
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2015-06-19 18:56:04.612
+!MESSAGE Could not write workspace metadata '/Users/simujenni/Scala/Course/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree'.
+!STACK 0
+java.io.FileNotFoundException: /Users/simujenni/Scala/Course/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1386)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1169)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2344)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2015-06-19 18:56:11.226 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-19 18:56:38.460
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 4 0 2015-06-19 19:08:18.295
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2015-06-19 19:08:18.438
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2015-06-19 19:08:18.590
+!MESSAGE scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-19 19:11:31.761
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-19 19:11:31.763
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+!SESSION 2015-06-19 19:51:01.342 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/simujenni/Scala/Course -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-19 19:51:14.466
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-19 19:55:19.849
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-19 19:55:19.851
+!MESSAGE Preference scala.compiler.installation was uninitialized for progfun-example, setting default to 2.11.
+!SESSION 2015-06-21 17:12:46.619 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-21 17:13:13.192
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-21 17:13:43.954
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-21 17:13:44.047
+!MESSAGE Preference scala.compiler.installation was uninitialized for progfun-example, setting default to 2.11.
+!SESSION 2015-06-22 20:25:58.123 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-22 20:26:25.750
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-22 20:26:49.468
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-22 20:26:49.518
+!MESSAGE Preference scala.compiler.installation was uninitialized for progfun-example, setting default to 2.11.
+!SESSION 2015-06-23 09:37:40.106 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-23 09:38:02.539
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-23 09:38:24.318
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-23 09:38:24.399
+!MESSAGE Preference scala.compiler.installation was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.eclipse.debug.core 4 2 2015-06-23 09:39:24.826
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.scalaide.worksheet.runtime.ProgramExecutor$.org$scalaide$worksheet$runtime$ProgramExecutor$$getFirstProcess(ProgramExecutor.scala:47)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener$$anonfun$handleDebugEvents$1.apply(ProgramExecutor.scala:80)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener$$anonfun$handleDebugEvents$1.apply(ProgramExecutor.scala:78)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener.handleDebugEvents(ProgramExecutor.scala:77)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2015-06-23 09:39:24.827
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.scalaide.worksheet.runtime.ProgramExecutor$.org$scalaide$worksheet$runtime$ProgramExecutor$$getFirstProcess(ProgramExecutor.scala:47)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener$$anonfun$handleDebugEvents$1.apply(ProgramExecutor.scala:80)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener$$anonfun$handleDebugEvents$1.apply(ProgramExecutor.scala:78)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)
+	at org.scalaide.worksheet.runtime.ProgramExecutor$DebugEventListener.handleDebugEvents(ProgramExecutor.scala:77)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2015-06-23 09:41:43.105
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=886
+!SESSION 2015-06-23 09:42:54.085 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-06-23 09:43:27.086
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-23 09:43:33.066
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-06-23 09:43:33.071
+!MESSAGE Preference scala.compiler.installation was uninitialized for progfun-example, setting default to 2.11.
+
+!ENTRY org.eclipse.ui 4 4 2015-06-23 09:46:11.811
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@4a92af58)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@7ca31792)}
