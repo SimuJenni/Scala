@@ -303,3 +303,19 @@ java.lang.Throwable
 	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:111)
 	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-07-05 22:15:37.169 -----------------------------------------------
+eclipse.buildId=4.1.0-vfinal-20150525-1102-Typesafe
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/simujenni/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/simujenni/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-05 22:16:12.389
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-07-05 22:16:43.297
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2015-07-05 22:16:43.374
+!MESSAGE Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.

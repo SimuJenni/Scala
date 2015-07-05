@@ -54,3 +54,20 @@
 2015-06-29 17:32:32,222  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1698
 2015-06-29 17:32:34,265  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1699
 2015-06-29 17:32:34,265  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1699
+2015-07-05 22:16:43,331  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for example, setting default to 2.11.
+2015-07-05 22:16:43,375  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for example, setting default to 2.11.
+2015-07-05 22:21:31,032  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:21:31,033  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:21:31,180  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:21:31,180  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:28:03,685  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:28:03,685  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:28:03,686  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:28:03,686  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:28:03,898  WARN [ModalContext] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:28:03,898  WARN [ModalContext] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:28:04,087  WARN [Worker-6] - ScalaProject - Project recfun has platform default sourceLevel.
+2015-07-05 22:28:04,087  WARN [Worker-6] - ScalaProject - Project recfun runs on platform default installation.
+2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
