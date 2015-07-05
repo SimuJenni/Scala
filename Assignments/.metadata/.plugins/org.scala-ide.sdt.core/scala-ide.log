@@ -71,3 +71,11 @@
 2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-05 22:28:26,425 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 23:11:54,938 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-07-05 23:11:54,939 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-07-05 23:11:54,940 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-07-05 23:13:13,453 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 23:13:13,454 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 23:16:56,396 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 23:16:56,396 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 23:16:56,396 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
