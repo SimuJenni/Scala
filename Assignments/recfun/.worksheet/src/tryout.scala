@@ -9,3 +9,7 @@ object tryout {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._
  	countChange(300,List(500,5,50,100,20,200,10));System.out.println("""res0: Int = """ + $show(res$0))}
  
 }
+
+class Rational {
+
+}

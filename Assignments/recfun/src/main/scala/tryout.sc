@@ -10,3 +10,7 @@ object tryout {
                                                   //> res0: Int = 1022
  
 }
+
+class Rational {
+
+}
