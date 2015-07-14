@@ -77,6 +77,8 @@ class FunSetSuite extends FunSuite {
     val s1 = singletonSet(1)
     val s2 = singletonSet(2)
     val s3 = singletonSet(3)
+    val sAll = (x: Int) => true
+    val pos = (x: Int) => x>0
   }
 
   /**
@@ -115,4 +117,59 @@ class FunSetSuite extends FunSuite {
       assert(!contains(s, 3), "Union 3")
     }
   }
+  
+  test("intersect contains none") {
+    new TestSets {
+      val s = intersect(s1, s2)
+      assert(!contains(s, 1), "Intersect 1")
+      assert(!contains(s, 2), "Intersect 2")
+    }
+  }
+    
+  test("intersect") {
+    new TestSets {
+      val s = intersect(s1, sAll)
+      assert(contains(s, 1), "Intersect 1")
+    }
+  }
+  
+  test("diff") {
+    new TestSets {
+      val s = diff(sAll, s1)
+      assert(!contains(s, 1), "diff 1")
+      assert(contains(s, 2), "diff 2")
+    }
+  }
+  
+  test("filter") {
+    new TestSets {
+      val s = filter(sAll, (x:Int) => x>0)
+      assert(!contains(s, -1), "filter 1")
+      assert(contains(s, 2), "filter 2")
+    }
+  }
+  
+  test("forAll") {
+    new TestSets {
+      assert(forall(pos, (x:Int) => x>0), "forall 1")
+      assert(!forall(pos, (x:Int) => x==0), "forall 2")
+    }
+  }
+  
+  test("exists") {
+      new TestSets {
+      assert(exists(pos, (x:Int) => x==5), "exists 1")
+      assert(!exists(pos, (x:Int) => x<0), "exists 2")
+    }
+  }
+  
+  test("map") {
+      new TestSets {
+      val s = map(s1, x=>x+1)
+      assert(contains(s, 2), "map 1")
+      assert(!contains(s, 1), "map 2")
+    }
+  }
+  
+  
 }
